@@ -19,6 +19,7 @@ python -m venv env
 env/Scripts/activate
 pip install django
 pip install django-cors-headers
+pip install djangorestframework
 
 //to start the backend
 python manage.py runserver
