@@ -13,11 +13,13 @@ npm start
 
 For Django:
 ```
+// install dependencies
+cd HR-app/
+python -m venv env
+env\Scripts\activate
+pip install django
 
 //to start the backend
-cd HR-app/DjangoAPI
-
-python -m pip install Django
-python .\manage.py runserver
+python manage.py runserver
 ```
 
