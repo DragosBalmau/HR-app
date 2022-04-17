@@ -16,8 +16,9 @@ For Django:
 // install dependencies
 cd HR-app/
 python -m venv env
-env\Scripts\activate
+env/Scripts/activate
 pip install django
+pip install django-cors-headers
 
 //to start the backend
 python manage.py runserver
