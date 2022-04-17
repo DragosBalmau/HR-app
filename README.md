@@ -13,9 +13,11 @@ npm start
 
 For Django:
 ```
+
+//to start the backend
 cd HR-app/DjangoAPI
 
-//to start the frontend
+python -m pip install Django
 python .\manage.py runserver
 ```
 
