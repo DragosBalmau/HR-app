@@ -21,6 +21,9 @@ pip install django
 pip install django-cors-headers
 pip install djangorestframework
 
+python manage.py makemigrations HRapp
+python manage.py migrate HRapp
+
 //to start the backend
 python manage.py runserver
 ```
